@@ -4,8 +4,7 @@ const { sendMail } = require("./mailer");
 const moment = require("moment");
 
 //CONSTANTS
-const SEARCH_URL =
-  "https://www.sj.se/kop-resa/valj-resa/G%C3%B6teborg%20C/Enk%C3%B6ping/2022-08-21";
+const SEARCH_URL = "insert_search_url_here";
 const BROWSER_DIMENSIONS = { width: 1920, height: 5080 };
 const USER_AGENT =
   "Mozilla/5.0 (X11; Linux x86_64)" +
